@@ -16,6 +16,13 @@ COLOR
 
 __________________*/
 
+:root {
+    --lblue: #b5ddff;
+    --blue: #0084fd;
+    --violet: #9792e4;
+    --orange: #fdc15f;   
+}
+
 /* ______________
 
 TYPO
@@ -27,3 +34,32 @@ __________________*/
 CLASSES
 
 __________________*/
+
+.box {
+    margin: 0 auto;
+    max-width: 71.25rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-beetween {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-30 {
+    width: 30%;
+}
