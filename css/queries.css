@@ -21,6 +21,12 @@ __________________*/
         width: calc((100% / 3) * 2);
     }
 
+    #testimonials .flex-col {
+        flex-direction: row;
+    }
+    #testimonials .flex-col .div:first-child {
+        width: 30%;
+    }
 }
 
 /* ______________
@@ -41,4 +47,9 @@ __________________*/
     #features .flex-col {
         flex-direction: row;
     }
+
+    #planning .flex-col {
+        flex-direction: row;
+    }
 }
+
