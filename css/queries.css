@@ -13,12 +13,16 @@ __________________*/
 
 @media screen and (min-width: 768px) {
     
-    #features .col {
-        width: calc(100% / 3);
+    #features>.flex-col {
+        flex-direction: row;
     }
 
-    #features .col:first-child {
-        width: calc((100% / 3) * 2);
+    #features .card {
+        width: 30%;
+    }
+
+    #features .card:first-child {
+        width: 60%;
     }
 
     #testimonials .flex-col {
