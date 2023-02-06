@@ -29,6 +29,26 @@ TYPO
 
 __________________*/
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ______________
+
+STYLES
+
+__________________*/
+
+img  {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* ______________
 
 CLASSES
@@ -38,6 +58,7 @@ __________________*/
 .box {
     margin: 0 auto;
     max-width: 71.25rem;
+    width: 85%;
 }
 
 .flex {

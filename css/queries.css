@@ -16,3 +16,13 @@ __________________*/
 DESKTOP (≥992PX)
 
 __________________*/
+
+@media screen and (min-width: 992px) {
+    header nav {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}

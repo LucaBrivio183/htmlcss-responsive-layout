@@ -4,6 +4,32 @@ HEADER
 
 __________________*/
 
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    padding: 1.25rem 0;
+    background-color: var(--blue);
+    color: white;
+}
+
+header>* {
+    align-items: center;
+}
+
+header nav {
+    display: none;
+}
+
+header ul {
+    gap: 1.25rem;
+}
+
+.fa-bars {
+    font-size: 1.5625rem;
+}
 
 /* ______________
 
