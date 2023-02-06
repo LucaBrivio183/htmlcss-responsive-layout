@@ -26,6 +26,15 @@ ul {
     border-radius: 1.25rem;
 }
 
+.img-box {
+    border-radius: 50%;
+    height: 12.5rem;
+    width: 12.5rem;
+    margin: auto;
+    background-size: cover;
+    background-position: 50%;
+}
+
 /* ______________
 
 HEADER
@@ -154,15 +163,6 @@ section {
     align-items: center;
 }
 
-#testimonials .img-box {
-    border-radius: 50%;
-    height: 12.5rem;
-    width: 12.5rem;
-    margin: auto;
-    background-size: cover;
-    background-position: 50%;
-}
-
 #testimonial-1 {
     background-image: url(../img/testimonial1.jpg);
 }
@@ -201,6 +201,23 @@ section {
 }
 
 /* about-us section */
+
+#about-img {
+    background-image: url(../img/about.jpg);
+}
+
+#about-us h4{
+    color: var(--violet);
+}
+
+#about-us .button{ 
+    background-color: var(--violet);
+}
+
+#about-us .flex-col {
+    gap: 1.875rem;
+    align-items: stretch;
+}
 
 /* get-started section */
 
