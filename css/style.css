@@ -16,7 +16,7 @@ ul {
 .button {
     color: white;
     background-color: var(--blue);
-    padding: .3125rem .9375rem ;
+    padding: .3125rem 1.875rem;
     text-decoration: none;
     font-size: .875rem;
     text-align: center;
@@ -125,7 +125,7 @@ section {
 
 #planning .card i {
     color: black;
-    background-color: var(--blue);
+    background-color: var(--violet);
     border-radius: 100%;
     font-size: 1.25rem;
     padding: .625rem;
@@ -145,7 +145,7 @@ section {
 }
 
 #testimonials .box .flex-col {
-    background-color: var(--blue);
+    background-color: var(--violet);
     color: white;
     padding: .9375rem;
     border-radius: 1.25rem;
@@ -174,7 +174,31 @@ section {
 #testimonial-3 {
     background-image: url(../img/testimonial3.jpg);
 }
+
 /* benefits section */
+
+#benefits {
+    background-color: var(--violet);
+    color: white;
+    text-align: center;
+}
+
+#benefits .button {
+    background-color: var(--violet);
+} 
+
+#benefits .flex-row {
+    gap: 1.875rem;
+    row-gap: 1.875rem;
+}
+
+#benefits .flex-row .col {
+    text-align: start;
+    background-color: white;
+    color: var(--violet);
+    padding: 30px;
+    border-radius: 1.25rem;
+}
 
 /* about-us section */
 
