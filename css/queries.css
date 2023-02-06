@@ -12,11 +12,7 @@ TABLET (≥768px)
 __________________*/
 
 @media screen and (min-width: 768px) {
-    .flex-col{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
+    
     #features .card {
         width: 30%;
     }
@@ -43,7 +39,6 @@ __________________*/
     }
 
     .col {
-        width: 50%;
+        width: 45%;
     }
-    
 }
