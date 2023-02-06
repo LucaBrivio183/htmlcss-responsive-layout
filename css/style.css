@@ -108,7 +108,7 @@ section {
     color: var(--blue);
 }
 
-.card h3 {
+.card h4 {
     color: var(--blue);
 }
 
@@ -253,3 +253,19 @@ section {
 FOOTER
 
 __________________*/
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3.125rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: var(--violet);
+    padding: 0 .3125rem;
+}
+
+footer .flex-col {
+    justify-content: space-between;
+}
