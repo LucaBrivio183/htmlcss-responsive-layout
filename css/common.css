@@ -61,7 +61,7 @@ __________________*/
     width: 85%;
 }
 
-.flex {
+.flex-row {
     display: flex;
 }
 
@@ -74,14 +74,12 @@ __________________*/
 }
 
 .flex-col {
+    display: flex;
     flex-direction: column;
 }
 
 .col{
     width: 100%;
-    height: 500px;
-    background-color: #0084fd;
-    border: 2px solid black;
 }
 
 .w-100 {

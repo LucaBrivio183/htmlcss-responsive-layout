@@ -13,12 +13,12 @@ __________________*/
 
 @media screen and (min-width: 768px) {
     
-    #features .card {
-        width: 30%;
+    #features .col {
+        width: calc(100% / 3);
     }
 
-    #features .card:first-child {
-        width: 60%;
+    #features .col:first-child {
+        width: calc((100% / 3) * 2);
     }
 
 }
@@ -38,7 +38,7 @@ __________________*/
         display: none;
     }
 
-    .col {
-        width: 45%;
+    #features .flex-col {
+        flex-direction: row;
     }
 }
