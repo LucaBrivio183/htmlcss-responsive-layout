@@ -34,19 +34,14 @@ a {
     color: inherit;
 }
 
-/* ______________
-
-STYLES
-
-__________________*/
-
-img  {
-    max-width: 100%;
-    display: block;
+p {
+    padding: .9375rem 0;
 }
 
-ul {
-    list-style-type: none;
+h3 {
+    font-size: 1.375rem;
+    line-height: 1.925rem;
+    padding: .9375rem 0;
 }
 
 /* ______________

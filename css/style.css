@@ -1,11 +1,39 @@
 /* ______________
 
+COMMON
+
+__________________*/
+
+img  {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    color: white;
+    background-color: var(--blue);
+    padding: .3125rem .9375rem ;
+    text-decoration: none;
+    font-size: .875rem;
+    text-align: center;
+    width: fit-content;
+    max-height: fit-content;
+    display: inline-block;
+    border-radius: 1.25rem;
+}
+
+/* ______________
+
 HEADER
 
 __________________*/
 
 header {
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -25,6 +53,11 @@ header nav {
 
 header ul {
     gap: 1.25rem;
+}
+
+header .button {
+    background-color: white;
+    color: black;
 }
 
 .fa-bars {
@@ -49,7 +82,26 @@ section {
 
 #features .card{
     width: 100%;
+    background-color: var(--lblue);
+    padding: 30px;
+    border-radius: 1.25rem;
+    text-align: center;
 }
+
+#features .card>i{
+    font-size: 5rem;
+    padding: .9375rem 0;
+    color: var(--blue);
+}
+
+.card h3 {
+    color: var(--blue);
+}
+
+#features .flex-col {
+    gap: 1.25rem;
+}
+
 /* planning section */
 
 /* testimonials section */
