@@ -53,6 +53,7 @@ header nav {
 
 header ul {
     gap: 1.25rem;
+    align-items: center;
 }
 
 header .button {
@@ -103,6 +104,32 @@ section {
 }
 
 /* planning section */
+
+#planning {
+    background-color: var(--violet);
+    color: white;
+}
+
+#planning .flex-col {
+    gap: 1.875rem;
+}
+
+#planning .card{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1.875rem;
+    border-radius: 1.25rem;
+    align-self: flex-end;
+}
+
+#planning .card i {
+    color: black;
+    background-color: var(--blue);
+    border-radius: 100%;
+    font-size: 1.25rem;
+    padding: .625rem;
+}
 
 /* testimonials section */
 

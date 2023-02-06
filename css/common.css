@@ -38,6 +38,12 @@ p {
     padding: .9375rem 0;
 }
 
+h2 {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    padding: 1.25rem 0;
+}
+
 h3 {
     font-size: 1.375rem;
     line-height: 1.925rem;
