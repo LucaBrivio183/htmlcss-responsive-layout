@@ -32,6 +32,10 @@ __________________*/
     #benefits .flex-row .col {
         width: 50%;
     }
+
+    #about-us .flex-col {
+        flex-direction: row;
+    }
 }
 
 /* ______________
