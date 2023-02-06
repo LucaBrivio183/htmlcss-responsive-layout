@@ -37,6 +37,29 @@ MAIN
 
 __________________*/
 
+section {
+    padding: 4.6875rem 0;
+}
+
+/* features section */
+
+#features {
+    margin-top: 3.125rem;
+}
+
+#features .card{
+    width: 100%;
+}
+/* planning section */
+
+/* testimonials section */
+
+/* benefits section */
+
+/* about-us section */
+
+/* get-started section */
+
 /* ______________
 
 FOOTER

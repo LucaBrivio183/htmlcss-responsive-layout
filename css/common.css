@@ -73,6 +73,14 @@ __________________*/
     flex-wrap: wrap;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
+.col{
+    width: 100%;
+}
+
 .w-100 {
     width: 100%;
 }
