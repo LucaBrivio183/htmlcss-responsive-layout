@@ -29,10 +29,6 @@ __________________*/
         flex-direction: row;
     }
 
-    #testimonials .flex-col .div:first-child {
-        width: 30%;
-    }
-
     #benefits .flex-row .col {
         width: 45%;
     }
