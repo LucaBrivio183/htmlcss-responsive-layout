@@ -24,8 +24,13 @@ __________________*/
     #testimonials .flex-col {
         flex-direction: row;
     }
+
     #testimonials .flex-col .div:first-child {
         width: 30%;
+    }
+
+    #benefits .flex-row .col {
+        width: 50%;
     }
 }
 
@@ -50,6 +55,10 @@ __________________*/
 
     #planning .flex-col {
         flex-direction: row;
+    }
+
+    #benefits .flex-row .col {
+        width: calc(100% / 3);
     }
 }
 
