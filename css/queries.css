@@ -22,7 +22,7 @@ __________________*/
     }
 
     #features .card:first-child {
-        width: 60%;
+        width: 60% ;
     }
 
     #testimonials .flex-col {

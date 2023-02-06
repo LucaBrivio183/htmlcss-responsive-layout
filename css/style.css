@@ -122,7 +122,6 @@ section {
 
 #features .flex-col {
     gap: 1.25rem;
-    align-content: stretch;
 }
 
 /* planning section */
