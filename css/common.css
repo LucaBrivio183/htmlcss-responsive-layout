@@ -29,6 +29,10 @@ TYPO
 
 __________________*/
 
+body *{
+    font-family: 'Open Sans', sans-serif;
+}
+
 a {
     color: inherit;
 }
